@@ -1,0 +1,14 @@
+title: Light Roast
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: ""
+url: "https://lightroast.fm"
+
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  
+plugins:
+  - jekyll-postcss
+  - jekyll-seo-tag
