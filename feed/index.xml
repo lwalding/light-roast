@@ -10,7 +10,7 @@
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<image>
-			<link>http://lightroast.fm/</link>
+			<link>https://lightroast.fm/</link>
 			<url>https://f001.backblazeb2.com/file/light-roast/img/light-roast.png</url>
 			<title>{{ site.title }}</title>
 		</image>
@@ -42,7 +42,6 @@
 				<itunes:duration>{{ post.duration }}</itunes:duration>
 				<itunes:image href="https://f001.backblazeb2.com/file/light-roast/img/light-roast.png" />
 				<itunes:explicit>no</itunes:explicit>
-				<description>{{ post.description }}</description>
 			</item>
 		{% endfor %}
 	</channel>
