@@ -6,3 +6,11 @@
 	
 [context.deploy-preview]
   environment = { NODE_ENV = "production", NODE_VERSION = "16.0.0", JEKYLL_ENV = "production"  }
+  
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "0"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'self'; style-src 'self'; form-action 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'self';"
