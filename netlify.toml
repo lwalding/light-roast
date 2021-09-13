@@ -13,4 +13,4 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self'; style-src *;"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' *.cloudfront.net *.typography.com;"
