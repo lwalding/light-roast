@@ -9,11 +9,6 @@
 		<copyright>2021-{{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<image>
-			<link>https://lightroast.fm/</link>
-			<url>https://f001.backblazeb2.com/file/light-roast/img/light-roast.png</url>
-			<title>{{ site.title }}</title>
-		</image>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
