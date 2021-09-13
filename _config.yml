@@ -1,7 +1,12 @@
 title: Light Roast
-description: > # this means to ignore newlines until "baseurl:"
+description: Light Roast is a podcast about filtered coffee
 baseurl: ""
 url: "https://lightroast.fm"
+email: luke@lightroast.fm
+author: Luke Walding
+twitter_username: lightroastfm
+instagram_username: lightroastfm
+keywords: coffee, filter coffee, filtered coffee, aeropress
 
 markdown: kramdown
 

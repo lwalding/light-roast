@@ -1,16 +1,26 @@
 ---
-layout: default
+layout: post
 title: Post
 ---
-<div class="post">
 
-  <header class="post-header">
-	<h1 class="post-title">{{ page.title }}</h1>
-	<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+{% include head.html %}
+{% include nav.html %}
 
-  <article class="post-content">
-	{{ content }}
-  </article>
-
+<div class="container mx-auto md:w-9/12 sm:w-full px-4">
+  <div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-8">
+  
+    <article class="col-span-2">
+    
+      <h1 class="text-2xl font-display text-white">{{ page.title }}</h1>
+      <!-- meta data -->
+      <div class="font-body text-base text-gray-600">
+      {{ content }}
+      </div>
+    </article>
+    
+    {% include sidebar.html %}
+    
+  </div>
 </div>
+
+{% include footer.html %}

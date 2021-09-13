@@ -1,15 +1,28 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
-<div class="post">
 
-  <header class="post-header">
-	<h1 class="post-title">{{ page.title }}</h1>
-  </header>
+{% include head.html %}
+{% include nav.html %}
 
-  <article class="post-content">
-	{{ content }}
-  </article>
-
+<div class="container mx-auto md:w-9/12 sm:w-full px-4">
+	<div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-8">
+		<div  class="col-span-2">
+		{% for post in site.posts %}
+		<article class="pb-2">
+		
+			<h2 class="text-2xl font-display text-white"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			<div class="font-body text-base text-gray-600">
+			{{ post.excerpt }}
+			</div>
+		</article>
+		{% endfor %}
+		</div>
+		
+		{% include sidebar.html %}
+		
+	</div>
 </div>
+
+{% include footer.html %}
