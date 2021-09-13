@@ -1,11 +1,11 @@
 title: Light Roast
 description: Light Roast is a podcast about filtered coffee
+sponsor: Sponsered by Sample Coffee
 baseurl: ""
 url: "https://lightroast.fm"
 email: luke@lightroast.fm
 author: Luke Walding
 twitter_username: lightroastfm
-instagram_username: lightroastfm
 keywords: coffee, filter coffee, filtered coffee, aeropress
 
 markdown: kramdown
