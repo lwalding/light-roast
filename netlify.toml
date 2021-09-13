@@ -1,0 +1,8 @@
+[context.production]
+  environment = { NODE_ENV = "production", NODE_VERSION = "16.0.0", JEKYLL_ENV = "production" }
+
+[context.branch-deploy]
+  environment = { NODE_ENV = "production", NODE_VERSION = "16.0.0", JEKYLL_ENV = "production"  }
+	
+[context.deploy-preview]
+  environment = { NODE_ENV = "production", NODE_VERSION = "16.0.0", JEKYLL_ENV = "production"  }

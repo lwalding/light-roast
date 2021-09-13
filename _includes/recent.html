@@ -1,0 +1,22 @@
+<div class="container mx-auto md:w-9/12 sm:w-full py-4 px-2">
+	<div class="grid lg:grid-cols-3 sm:grid-cols-3 gap-2">
+		{% for post in site.posts offset:1 limit:3 %}
+		<div class="sm:p-4 sm:px-4 px-2 sm:space-y-0 space-y-4 sm:mb-0 mb-4 rounded-sm sm:border border-gray-400">
+			<div>
+				<a href="{{ post.url }}">
+					<h2 class="font-display text-xl text-white">{{ post.title }}</h2>
+				</a>
+				<div class="flex sm:pt-0 pt-2 w-full">
+					<svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 h-6 w-6 from-current text-green-400" viewBox="0 0 20 20" fill="currentColor">
+						<path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+					</svg>
+					<h3 class="pl-1 font-display text-gray-400">{{ post.location }}</h3>
+				</div>
+			</div>
+			<p class="sm:pt-4 pt-2 font-body text-base text-gray-400">
+				{{ post.excerpt | strip_html }}
+			</p>
+		</div>
+		{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,19 @@
+title: Light Roast
+description: Light Roast is a podcast about filtered coffee
+baseurl: ""
+url: "https://lightroast.fm"
+email: luke@lightroast.fm
+author: Luke Walding
+twitter_username: lightroastfm
+instagram_username: lightroastfm
+keywords: coffee, filter coffee, filtered coffee, aeropress
+
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  
+plugins:
+  - jekyll-postcss
+  - jekyll-seo-tag
