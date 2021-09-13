@@ -9,7 +9,7 @@
 		<copyright>2021-{{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+		<itunes:subtitle>{{ site.sponsor | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
 		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
@@ -28,7 +28,6 @@
 				<link>{{ site.url }}{{ post.url }}</link>
 				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 				<description>{{ post.excerpt | strip_html | lstrip | rstrip }}</description>
-				<content:encoded>{{ post.links }}</content:encoded>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 				<enclosure url="https://{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
 				<itunes:author>{{ site.author }}</itunes:author>
