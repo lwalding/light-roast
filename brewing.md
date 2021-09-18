@@ -10,7 +10,7 @@ permalink: /aeropress-brewing/
 <h3 class="text-xl font-display text-white">AeroPress recipe</h3>
 <p>The thing that makes the AeroPress coffee brewer such a delight is that you can brew coffee in a multitude of different ways with it. For a deep dive on YouTube, check out the <a class="text-white border-b border-gray-300 hover:border-b border-gray-400 hover:border-gray-100" href="https://www.youtube.com/playlist?list=PLxz0FjZMVOl2858ytsWi9DH8NUKAz4nvl">James Hoffman AeroPress series</a> that he recently did. It’s a great series even though I tend to veer away from James slightly in terms of my approach.</p>
 <p>This is my current recipe:</p>
-<ol class="ml-4 font-body pl-4 list-disc text-white">
+<ol class="ml-4 font-body list-disc text-white">
 	<li>Inverted AeroPress method</li>
 	<li>Brew at 94 °C</li>
 	<li>12g to 200 ml coffee to water ratio</li>
