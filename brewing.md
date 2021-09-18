@@ -7,7 +7,7 @@ permalink: /aeropress-brewing/
 <p>The idea behind this page is to share my current brewing methodology and the equipment I use to get there. If you have been listening to Light Roast for any length of time you would be aware that I brew exclusively with the <a class="text-white border-b border-gray-300 hover:border-b border-gray-400 hover:border-gray-100" href="https://aeropress.com/">AeroPress</a>.</p>
 <p>If you haven’t seen an AeroPress in the wild I would be very surprised.</p>
 <p><a class="text-white border-b border-gray-300 hover:border-b border-gray-400 hover:border-gray-100" href="https://samplecoffee.com.au/shop/aeropress">Aussies you can pick on up from Sample</a>. Anywhere else, a quick Google search will  be all you need to find a supplier near you.</p>
-<h3 class="text-xl font-display text-white">AeroPress recipe</h3>
+<h3 class="text-xl font-display text-white">AeroPress Recipe</h3>
 <p>The thing that makes the AeroPress coffee brewer such a delight is that you can brew coffee in a multitude of different ways with it. For a deep dive on YouTube, check out the <a class="text-white border-b border-gray-300 hover:border-b border-gray-400 hover:border-gray-100" href="https://www.youtube.com/playlist?list=PLxz0FjZMVOl2858ytsWi9DH8NUKAz4nvl">James Hoffman AeroPress series</a> that he recently did. It’s a great series even though I tend to veer away from James slightly in terms of my approach.</p>
 <p>This is my current recipe:</p>
 <ol class="ml-4 font-body list-disc text-white">
