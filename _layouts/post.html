@@ -8,19 +8,27 @@ title: Post
 
 <div class="container mx-auto md:w-9/12 sm:w-full px-4">
   <div class="grid lg:grid-cols-3 sm:grid-cols-3 grid-cols-1 gap-8">
-  
+    {% for post in site.posts %}
     <article class="col-span-2">
-    
       <h1 class="text-2xl font-display text-white">{{ page.title }}</h1>
-      <h3 class="text-sm font-body text-white">{{ post.date | date: "%b %d, %y" }}</h3>
-      <!-- meta data -->
-      <div class="font-body text-base text-gray-600">
+      <h3 class="text-sm  font-body text-white">{{ post.date | date: "%b %d, %y" }}</h3>
+      <div class="mt-2 text-sm font-body text-white">
+        <div class="w-full">
+          From {{ post.location }} ({{ post.region }}) and farmed at {{ post.altitude }} m.a.s.l
+        </div>
+        <div class="w-full">
+          {{ post.varietals }}
+        </div>
+        <div class="w-full">
+          {{ post.process }}
+        </div>
+      </div>
+      <div class="font-body text-sm text-gray-600">
       {{ content }}
       </div>
     </article>
-    
+    {% endfor %}
     {% include sidebar.html %}
-    
   </div>
 </div>
 
