@@ -1,15 +1,19 @@
 ---
-layout: default
+layout: page
 title: Page
 ---
-<div class="post">
-
-  <header class="post-header">
-	<h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-	{{ content }}
-  </article>
-
+{% include head.html %}
+{% include nav.html %}
+<div class="container mx-auto md:w-9/12 w-full px-4">
+  <div class="grid lg:grid-cols-3 sm:grid-cols-3 grid-cols-1 gap-8">
+    <div  class="col-span-2">
+      <article class="pb-2">
+        <h2 class="text-2xl font-display text-white">{{ page.title }}</h2>
+        <div class="font-body text-sm text-gray-600">
+          {{ content }}
+        </div>
+    </div>
+    {% include sidebar.html %}
+  </div>
 </div>
+{% include footer.html %}
