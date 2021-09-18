@@ -12,6 +12,7 @@ title: Post
     <article class="col-span-2">
     
       <h1 class="text-2xl font-display text-white">{{ page.title }}</h1>
+      <h3 class="text-sm font-body text-white">{{ post.date | date: "%b %d, %y" }}</h3>
       <!-- meta data -->
       <div class="font-body text-base text-gray-600">
       {{ content }}
