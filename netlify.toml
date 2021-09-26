@@ -13,3 +13,9 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
     X-Content-Type-Options = "nosniff"
+    
+[[redirects]]
+  from = "/huehue-martinez"
+  to = "/guatemala/francisco-martinez"
+  status = 301
+  force = true
