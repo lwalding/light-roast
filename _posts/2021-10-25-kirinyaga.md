@@ -35,5 +35,5 @@ excerpt_separator: <!--more-->
 </ul>
 <!--<h3 class="my-4 font-display text-xl text-white">Transcript</h3>
 <section class="font-body text-sm space-y-2 text-gray-400">
-<p></p>-->
-</section>
+<p></p>
+</section>-->
